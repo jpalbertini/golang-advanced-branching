@@ -17,11 +17,11 @@ type bike struct {
 	make  string
 }
 
-type values struct {
-	Models []model `json:"values"`
+type Values struct {
+	Models []Model `json:"values"`
 }
 
-type model struct {
+type Model struct {
 	Name     string   `json:"model"`
 	Feedback []string `json:"feedback"`
 }
